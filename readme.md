@@ -50,7 +50,7 @@ App: https://play.google.com/store/apps/details?id=com.ValuxApps.HumHum
 
 You can also follow my GitHub Profile to stay updated about my latest projects:
 
-[![GitHub Follow](https://img.shields.io/badge/Connect-Maghrabi-blue.svg?logo=Github&longCache=true&style=social&label=Follow)](vhttps://github.com/HussienMaghrabi)
+[![GitHub Follow](https://img.shields.io/badge/Connect-Maghrabi-blue.svg?logo=Github&longCache=true&style=social&label=Follow)](https://github.com/HussienMaghrabi)
 
 If you liked the repo then kindly support it by giving it a star ⭐!
 
