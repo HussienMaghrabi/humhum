@@ -4,6 +4,8 @@ namespace App\Http\Middleware;
 
 use Closure;
 use Illuminate\Support\Facades\App;
+use Illuminate\Support\Str;
+
 
 class Locale
 {
@@ -15,7 +17,8 @@ class Locale
             if (!in_array($segment, config('app.locales'))) {
                 $segments = $request->segments();
                 $fallback = session('locale') ?: config('app.fallback_locale');
-                $segments = array_prepend($segments, $fallback);
+                dd(Str::plural($segments, $fallback));
+                $segments = Str::plural($segments, $fallback);
 
                 return redirect()->to(implode('/', $segments));
             }

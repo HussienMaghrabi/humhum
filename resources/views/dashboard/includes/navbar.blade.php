@@ -29,7 +29,7 @@ if(Route::currentRouteName() == 'home'){
 
         <!-- User Account: style can be found in dropdown.less -->
         <li class="dropdown user user-menu" style="{{App::getLocale() == 'ar' ? 'float:right' : ''}}">
-          <a href="{{ route('admin.admins.edit', ['lang' => App::getLocale(), 'id' => Auth::guard('admin')->user()->id]) }}" class="dropdown-toggle" >
+          <a href="{{ route('admin.admins.edit', ['lang' => App::getLocale(), 'admin' => Auth::guard('admin')->user()->id]) }}" class="dropdown-toggle" >
             <span class="hidden-xs">{{ Auth::guard('admin')->user()->name }}</span>
           </a>
 

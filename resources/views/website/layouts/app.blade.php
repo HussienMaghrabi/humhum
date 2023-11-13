@@ -27,6 +27,6 @@
 
 @include('website.includes.scripts')
 @yield('scripts')
-@include('flashy::message')
+{{--@include('flashy::message')--}}
 </body>
 </html>
