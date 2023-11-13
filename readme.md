@@ -18,8 +18,8 @@ The best way to purchase your daily goods ,Hum Hum Developed using Laravel
 
 ## 💻 Installation steps
 
-- Updated to `Laravel 5.7.*` Now!
-- PHP `7.3.4` with Sound Null Safety!
+- Updated to `Laravel "^10.10"` Now!
+- PHP `"^8.1"` with Sound Null Safety!
 
 Open CMD where you want to clone the project & run the following commands
 
@@ -37,7 +37,6 @@ php artsan storage:link
 
 ## 🔗  Information
 
-Website: https://humhumeg.com/ar <br>
 App: https://play.google.com/store/apps/details?id=com.ValuxApps.HumHum
 
 
