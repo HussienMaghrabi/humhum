@@ -16,12 +16,12 @@ Route::get('/store', function () {
 });
 
 Route::get('store/signin', 'Vendor\LoginController@index')->name('vendor.login');
-Route::post('store/signin', 'Vendor\LoginController@login')->name('vendor.login');
+Route::post('store/signin', 'Vendor\LoginController@login')->name('vendors.login');
 
 Route::prefix('{lang}/store')->namespace('Vendor')->name('vendor.')->middleware(['vendor:vendor', 'locale'])->group(function () {
 
     Route::get('update-profile' ,'ProfileController@index')->name('profile');
-    Route::post('update-profile', 'ProfileController@update')->name('profile');
+    Route::post('update-profile', 'ProfileController@update')->name('profiles');
 
 
     Route::get('/', 'HomeController@index')->name('home');

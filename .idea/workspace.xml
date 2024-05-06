@@ -8,12 +8,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45024753-1bc0-452b-83e8-f54bddd77ba3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/humhum.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/humhum.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/Locale.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/Locale.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/pagination.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/pagination.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerConfigs">
+    <option name="configs">
+      <option value="$PROJECT_DIR$/storage/app/public/assets/admin/bower_components/select2/composer.json" />
+      <option value="$PROJECT_DIR$/storage/app/public/assets/admin/bower_components/ckeditor/composer.json" />
+      <option value="$PROJECT_DIR$/public/storage/assets/admin/bower_components/jquery-ui/composer.json" />
+      <option value="$PROJECT_DIR$/public/storage/assets/admin/bower_components/select2/composer.json" />
+      <option value="$PROJECT_DIR$/public/storage/assets/admin/bower_components/bootstrap-datepicker/composer.json" />
+      <option value="$PROJECT_DIR$/public/storage/assets/admin/bower_components/ckeditor/composer.json" />
+      <option value="$PROJECT_DIR$/storage/app/public/assets/admin/bower_components/bootstrap-datepicker/composer.json" />
+      <option value="$PROJECT_DIR$/storage/app/public/assets/admin/bower_components/jquery-ui/composer.json" />
+      <option value="$PROJECT_DIR$/public/storage/assets/admin/bower_components/Ionicons/composer.json" />
+      <option value="$PROJECT_DIR$/storage/app/public/assets/admin/bower_components/Ionicons/composer.json" />
+    </option>
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
@@ -232,11 +252,56 @@
       <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
       <path value="$PROJECT_DIR$/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/vendor/league/commonmark" />
+      <path value="$PROJECT_DIR$/vendor/spatie/laravel-ignition" />
+      <path value="$PROJECT_DIR$/vendor/league/config" />
+      <path value="$PROJECT_DIR$/vendor/spatie/backtrace" />
+      <path value="$PROJECT_DIR$/vendor/spatie/flare-client-php" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/league/mime-type-detection" />
+      <path value="$PROJECT_DIR$/vendor/spatie/ignition" />
+      <path value="$PROJECT_DIR$/vendor/league/flysystem-local" />
+      <path value="$PROJECT_DIR$/vendor/psr/clock" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/uri-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/collection" />
+      <path value="$PROJECT_DIR$/vendor/nunomaduro/termwind" />
+      <path value="$PROJECT_DIR$/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/vendor/symfony/uid" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php83" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mailer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-uuid" />
+      <path value="$PROJECT_DIR$/vendor/voku/portable-ascii" />
+      <path value="$PROJECT_DIR$/vendor/fruitcake/php-cors" />
+      <path value="$PROJECT_DIR$/vendor/graham-campbell/result-type" />
+      <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/vendor/dflydev/dot-access-data" />
+      <path value="$PROJECT_DIR$/vendor/brick/math" />
+      <path value="$PROJECT_DIR$/vendor/laravel/sail" />
+      <path value="$PROJECT_DIR$/vendor/laravel/sanctum" />
+      <path value="$PROJECT_DIR$/vendor/nette/utils" />
+      <path value="$PROJECT_DIR$/vendor/laravel/prompts" />
+      <path value="$PROJECT_DIR$/vendor/nette/schema" />
+      <path value="$PROJECT_DIR$/vendor/laravel/pint" />
+      <path value="$PROJECT_DIR$/vendor/laravel/serializable-closure" />
+      <path value="$PROJECT_DIR$/vendor/fakerphp/faker" />
     </include_path>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
@@ -318,21 +383,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/var/www/html/partners",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/var/www/html/silver-partners&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\hussi\humhum\resources\views\website\views\home" />
@@ -354,6 +419,14 @@
       <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-PS-241.15989.102" />
+        <option value="bundled-php-predefined-ba97393d7c68-c76157a7178b-com.jetbrains.php.sharedIndexes-PS-241.15989.102" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -460,6 +533,50 @@
       <workItem from="1569758562704" duration="955000" />
       <workItem from="1569759868227" duration="633000" />
       <workItem from="1699787437960" duration="10082000" />
+      <workItem from="1700480314885" duration="247000" />
+      <workItem from="1700484008049" duration="724000" />
+      <workItem from="1700548153076" duration="9000" />
+      <workItem from="1700565766279" duration="3000" />
+      <workItem from="1700566566506" duration="1776000" />
+      <workItem from="1700636954428" duration="1981000" />
+      <workItem from="1700639601182" duration="2208000" />
+      <workItem from="1700646949050" duration="4891000" />
+      <workItem from="1700739788984" duration="617000" />
+      <workItem from="1700746259665" duration="66000" />
+      <workItem from="1700989878268" duration="7279000" />
+      <workItem from="1701068594136" duration="25000" />
+      <workItem from="1701072848844" duration="622000" />
+      <workItem from="1701093128229" duration="600000" />
+      <workItem from="1701154342483" duration="63000" />
+      <workItem from="1701162250136" duration="3663000" />
+      <workItem from="1701202324249" duration="621000" />
+      <workItem from="1701246092086" duration="2308000" />
+      <workItem from="1701328518450" duration="13000" />
+      <workItem from="1701330843488" duration="4099000" />
+      <workItem from="1701356327698" duration="430000" />
+      <workItem from="1701586927281" duration="10072000" />
+      <workItem from="1701617743906" duration="600000" />
+      <workItem from="1701767095007" duration="247000" />
+      <workItem from="1701773264951" duration="617000" />
+      <workItem from="1701779055574" duration="2592000" />
+      <workItem from="1701847790031" duration="15000" />
+      <workItem from="1701854893748" duration="2510000" />
+      <workItem from="1701955215165" duration="4208000" />
+      <workItem from="1702127456471" duration="9529000" />
+      <workItem from="1702190742914" duration="6349000" />
+      <workItem from="1702278667201" duration="1261000" />
+      <workItem from="1702373570918" duration="602000" />
+      <workItem from="1702395513580" duration="13000" />
+      <workItem from="1702452892452" duration="21000" />
+      <workItem from="1702466542167" duration="654000" />
+      <workItem from="1702547462045" duration="1258000" />
+      <workItem from="1702732044665" duration="21000" />
+      <workItem from="1706616758542" duration="1469000" />
+      <workItem from="1706620570255" duration="182000" />
+      <workItem from="1706623416049" duration="720000" />
+      <workItem from="1706785048339" duration="2774000" />
+      <workItem from="1707032480428" duration="32000" />
+      <workItem from="1715004529626" duration="645000" />
     </task>
     <servers />
   </component>

@@ -23,7 +23,7 @@ Route::prefix('{lang}')->namespace('Website')->name('web.')->middleware('locale'
     Route::get('/', 'HomeController@index')->name('home');
 
     Route::get('auth', 'AuthController@index')->name('auth');
-    Route::post('auth', 'AuthController@login')->name('auth');
+    Route::post('auth', 'AuthController@login')->name('auths');
     Route::post('register', 'AuthController@register')->name('register');
 
 
@@ -47,7 +47,7 @@ Route::prefix('{lang}')->namespace('Website')->name('web.')->middleware('locale'
 
     Route::get('products/{id}/details', 'ProductController@details')->name('products.details');
     Route::resource('products', 'ProductController');
-    Route::get('products/{id}/{type}', 'ProductController@show')->name('products.show');
+    Route::get('products/{id}/{type}', 'ProductController@show')->name('product.show');
 
 
 

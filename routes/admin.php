@@ -16,7 +16,7 @@ Route::get('/admin', function () {
 });
 
 Route::get('admin/signin', 'Dashboard\LoginController@index')->name('admin.login');
-Route::post('admin/signin', 'Dashboard\LoginController@login')->name('admin.login');
+Route::post('admin/signin', 'Dashboard\LoginController@login')->name('admins.login');
 
 Route::prefix('{lang}/dashboard')->namespace('Dashboard')->name('admin.')->middleware(['admin:admin', 'locale'])->group(function () {
 
@@ -100,23 +100,5 @@ Route::prefix('{lang}/dashboard')->namespace('Dashboard')->name('admin.')->middl
     Route::delete('vendors/multiDelete', 'VendorController@multiDelete')->name('vendors.multiDelete');
     Route::any('vendors/search', 'VendorController@search')->name('vendors.search');
     Route::resource('vendors', 'VendorController');
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 });
